@@ -1,1 +1,17 @@
-# Lesson-08-Homework
+## Encode Solidity Bootcamp
+# Homework Week 2
+
+by: 
+- Sergey Epifanov @BanzaiTokyo 0x46656d5628464fB99bE9b3d35FBbc3D185506b4A
+- Mauro Monso @Mauro.Monso
+- Loic Balum @0xcoil
+- Ilya Shulman @kwindi.
+
+
+
+## Sergey
+deployed the contract with
+npx ts-node --files ./scripts/viemDeploy.ts first second third fourth at:
+0x0970aaa10e4a9fcab2da444e76dff7c946096dfd
+transaction:
+https://sepolia.etherscan.io/tx/0x0cb10f44a03cdf53d8b0e070712a2a4f6da1feb213bf6143aa77a02fb2d2a7fb
