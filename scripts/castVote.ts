@@ -25,14 +25,14 @@ async function main() {
   if (isNaN(Number(proposalIndex))) throw new Error("Invalid proposal index");
   const publicClient = createPublicClient({
     chain: sepolia,
-    transport: http(`https://eth-sepolia.g.alchemy.com/v2/xh80XL1x5_Xv3bt0f8T5YXWjEwqJv4Eo`),
+    transport: http(`https://eth-sepolia.g.alchemy.com/v2/${providerApiKey}`),
 
   });
   const account = privateKeyToAccount(`0x${deployerPrivateKey}`);
 const voter = createWalletClient({
     account,
     chain: sepolia,
-    transport: http(`https://eth-sepolia.g.alchemy.com/v2/xh80XL1x5_Xv3bt0f8T5YXWjEwqJv4Eo`),
+    transport: http(`https://eth-sepolia.g.alchemy.com/v2/${providerApiKey}`),
   });
   console.log("Proposal selected: ");
   const proposal = (await publicClient.readContract({
