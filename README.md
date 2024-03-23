@@ -4,7 +4,7 @@
 by: 
 - Sergey Epifanov @BanzaiTokyo 0x46656d5628464fB99bE9b3d35FBbc3D185506b4A
 - Mauro Monso @Mauro.Monso
-- Loic Balum @0xcoil
+- Loic Balum @0xcoil 0x8f63A3E560b4bEBCf8bF056cbb8fC8E4b36B1b80
 - Ilya Shulman @kwindi.
 
 
