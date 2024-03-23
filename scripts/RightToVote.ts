@@ -1,14 +1,9 @@
 import { sepolia } from "viem/chains";
 import * as dotenv from "dotenv";
 dotenv.config();
-import {
-  createPublicClient,
-  http,
-  createWalletClient,
-  hexToString,
-} from "viem";
+import { createPublicClient, http, createWalletClient } from "viem";
 import { privateKeyToAccount } from "viem/accounts";
-import { abi, bytecode } from "../artifacts/contracts/Ballot.sol/Ballot.json";
+import { abi } from "../artifacts/contracts/Ballot.sol/Ballot.json";
 
 const providerApiKey = process.env.ALCHEMY_API_KEY || "";
 const deployerPrivateKey = process.env.PRIVATE_KEY || "";
