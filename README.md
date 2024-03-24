@@ -19,3 +19,6 @@ https://sepolia.etherscan.io/tx/0x0cb10f44a03cdf53d8b0e070712a2a4f6da1feb213bf61
 ## Loic
 Pushed a RightToVote script, you can run it with :
 npx ts-node --files ./scripts/RightToVote.ts 0x0970aaA10E4a9FCAB2dA444E76DFf7C946096dFd [Address of the wallet you want to give the vote]
+
+## Mauro
+Pushed castVote.ts, this was the one done during the lecture. Also added delegateVote.ts, still working on it as I am getting the error "Execution reverted for an unknown reason."
