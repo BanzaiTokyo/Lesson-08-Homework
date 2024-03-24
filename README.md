@@ -21,4 +21,7 @@ Pushed a RightToVote script, you can run it with :
 npx ts-node --files ./scripts/RightToVote.ts 0x0970aaA10E4a9FCAB2dA444E76DFf7C946096dFd [Address of the wallet you want to give the vote]
 
 ## Mauro
-Pushed castVote.ts, this was the one done during the lecture. Also added delegateVote.ts, still working on it as I am getting the error "Execution reverted for an unknown reason."
+Pushed castVote.ts, this was the one done during the lecture. 
+Also added delegateVote.ts, still working on it as I am getting the error "Execution reverted for an unknown reason."
+npx ts-node --files ./scripts/delegateVote.ts <contract address> <delegated wallet address>
+One successful Tx: https://sepolia.etherscan.io/tx/0x5f466a3dcb8f33248b63d38d298d91498c03a33fcd9df9bdf7fcb13457cafaed
