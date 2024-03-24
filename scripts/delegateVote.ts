@@ -16,7 +16,7 @@ async function main() {
   if (!contractAddress) throw new Error("Contract address not provided");
   if (!/^0x[a-fA-F0-9]{40}$/.test(contractAddress))
     throw new Error("Invalid contract address");
-  const delegateAddress = parameters[1];
+  const delegateAddress = parameters[1] as `0x${string}`;
   
   if (!delegateAddress) throw new Error("Delegate address not provided");
   const publicClient = createPublicClient({
