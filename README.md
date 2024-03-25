@@ -19,6 +19,7 @@ https://sepolia.etherscan.io/tx/0x0cb10f44a03cdf53d8b0e070712a2a4f6da1feb213bf61
 ## Loic
 Pushed a RightToVote script, you can run it with :
 npx ts-node --files ./scripts/RightToVote.ts 0x0970aaA10E4a9FCAB2dA444E76DFf7C946096dFd [Address of the wallet you want to give the vote]
+
 Voted using castVote.ts using the command npx ts-node --files ./scripts/CastVote.ts 0x0970aaA10E4a9FCAB2dA444E76DFf7C946096dFd 2
 Tx was successful : https://sepolia.etherscan.io/tx/0x66008515e3be22b56a210116cb32a3e597f5d74c2a1e4159388e8ce6f813628a
 
