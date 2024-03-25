@@ -23,7 +23,7 @@ npx ts-node --files ./scripts/RightToVote.ts 0x0970aaA10E4a9FCAB2dA444E76DFf7C94
 Voted using castVote.ts using the command npx ts-node --files ./scripts/CastVote.ts 0x0970aaA10E4a9FCAB2dA444E76DFf7C946096dFd 2
 Tx was successful : https://sepolia.etherscan.io/tx/0x66008515e3be22b56a210116cb32a3e597f5d74c2a1e4159388e8ce6f813628a
 
-Checked the vote using the winningProposal script : 
+Checked the vote using a checkVote script : 
 <img width="845" alt="image" src="https://github.com/BanzaiTokyo/Lesson-08-Homework/assets/132174755/37e30dfb-9efa-45fe-a265-59a45d53b8c3">
 
 
