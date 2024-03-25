@@ -16,6 +16,12 @@ npx ts-node --files ./scripts/viemDeploy.ts first second third fourth at:
 transaction:
 https://sepolia.etherscan.io/tx/0x0cb10f44a03cdf53d8b0e070712a2a4f6da1feb213bf6143aa77a02fb2d2a7fb
 
+Gave the right to vote to Mauro, Ilya & Loic using the RightToVote script, 
+Txs were successful : 
+https://sepolia.etherscan.io/tx/0x2c8eb7f7da5a233277b54fbb13cb10c2ee24a4480a81c2eb91c2de7b99213ef9
+https://sepolia.etherscan.io/tx/0x1dd64c3c4d2402642dc1c6cc5353a7f5ada81a0f15ddad802586757e8e8fd8bb
+https://sepolia.etherscan.io/tx/0xb0e2de39a811635567be13c1a6550786f019c6fb62c5354c77c4a397de744674
+
 ## Loic
 Pushed a RightToVote script, you can run it with :
 npx ts-node --files ./scripts/RightToVote.ts 0x0970aaA10E4a9FCAB2dA444E76DFf7C946096dFd [Address of the wallet you want to give the vote]
